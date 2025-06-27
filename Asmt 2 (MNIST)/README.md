@@ -17,8 +17,8 @@ Images were converted to tensors and normalized using `transforms.ToTensor()`.
 ### Models Explored:
 
 #### 1. SimpleNN (Feedforward Neural Network)
-- **Input**: Flattened 28x28 image (784 features)
-- **Layers**: `Linear(784 → 128)` → ReLU → `Linear(128 → 10)`
+- Input: Flattened 28x28 image (784 features)
+- Layers: `Linear(784 → 128)` → ReLU → `Linear(128 → 10)`
 - Performs decently but lacks spatial feature extraction.
 
 #### 2. CNN (Used for final submission)
@@ -28,8 +28,8 @@ Images were converted to tensors and normalized using `transforms.ToTensor()`.
 - This structure allows the model to capture spatial patterns in images effectively.
 
 ### Optimizer & Loss:
-- **Adam optimizer** with learning rate = 0.001  
-- **CrossEntropyLoss** for multi-class classification
+- Adam optimizer with learning rate = 0.001  
+- CrossEntropyLoss for multi-class classification
 
 ## Training Visualizations & Results
 
@@ -47,7 +47,7 @@ Loss decreased and accuracy consistently increased, stabilizing near 99% within 
 ### Training Log Output:
 Below is the training log showing the model’s performance across 5 epochs. We observe a consistent decrease in loss and an increase in accuracy, 
 indicating successful learning.
-#### ![traininglog](https://github.com/user-attachments/assets/da013d63-1234-4933-8122-b2734f51a46f)
+#### ![training_log](https://github.com/user-attachments/assets/9a54f5a5-06e6-46a4-ab5e-9e20b4350e6f)
 
 
 ## Conclusion
