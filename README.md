@@ -45,7 +45,7 @@ Compared tabular Q-learning and DQN performance.
 Learned Proximal Policy Optimization (PPO) through theory and tutorials.
 
 
-Final Project: PPO Agent for CarRacing  
+### Final Project: PPO Agent for CarRacing  
 Setup  
 Install dependencies:  
 `pip install gymnasium[box2d] stable-baselines3 opencv-python numpy torch`
